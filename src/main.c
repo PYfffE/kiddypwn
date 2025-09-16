@@ -46,7 +46,7 @@ int main(int argc, char *argv[]){
     
     chatting();
 
-    printf("Unfortinately, i cannot gain access to his computer. Let's try another time...\n");
+    printf("Unfortunately, i cannot gain access to his computer. Let's try another time...\n");
     fflush(stdout);
     sleep(3);
 
