@@ -10,6 +10,7 @@ COPY Makefile Makefile
 RUN make
 
 RUN rm -rf ./src ./Makefile
+COPY flag.txt /flag.txt 
 
 WORKDIR /app/build
 
